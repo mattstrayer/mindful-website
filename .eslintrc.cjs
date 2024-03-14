@@ -1,6 +1,8 @@
-/* eslint-env node */
-
 module.exports = {
   root: true,
-  extends: ["@nuxt/eslint-config"]
+  extends: [
+    "@nuxt/eslint-config",
+    "@vue/eslint-config-typescript/recommended",
+    "@vue/eslint-config-prettier"
+  ]
 }
