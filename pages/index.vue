@@ -29,4 +29,6 @@ definePageMeta({
       </div>
     </div>
   </div>
+
+  <Footer />
 </template>
