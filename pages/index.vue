@@ -16,10 +16,18 @@ definePageMeta({
   <div class="container flex flex-col justify-center max-w-[600px] mx-auto">
     <h1
       class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug">
-      be<br />mindful
+      mindful
     </h1>
 
-    <button class="btn btn-primary">Button</button>
-    <button class="btn btn-secondary">Button</button>
+    <h3 class="prose">coming soon</h3>
+    <div class="mockup-browser border bg-base-300">
+      <div class="mockup-browser-toolbar">
+        <div class="input"></div>
+      </div>
+      <div class="flex justify-center  bg-base-200">
+        <img src="/img/extension_preview.png" alt="mindful-extension-preview"  />
+      </div>
+    </div>
+
   </div>
 </template>
