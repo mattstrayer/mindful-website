@@ -1,5 +1,5 @@
 {
-  "name": "mindful website",
+  "name": "mindful-website",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,22 +8,27 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint ./src --ext .vue,.ts,.js  --ignore-path .gitignore",
-    "lint:fix": "eslint ./src --ext .vue,.ts,.js --fix --ignore-path .gitignore",
+    "lint": "eslint . --ext .vue,.ts,.js  --ignore-path .gitignore",
+    "lint:fix": "eslint . --ext .vue,.ts,.js --fix --ignore-path .gitignore",
     "format": "prettier . --check",
     "format:fix": "prettier --write .",
     "lf:fix": "npm-run-all -c lint:fix format:fix"
   },
   "dependencies": {
-    "nuxt": "^3.10.3",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@tailwindcss/typography": "0.5.10",
-    "daisyui": "^4.7.3"
+    "daisyui": "^4.7.3",
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "eslint": "8.57.0",
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@rushstack/eslint-patch": "1.7.2",
+    "@vue/eslint-config-prettier": "9.0.0",
+    "@vue/eslint-config-typescript": "13.0.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-standard-with-typescript": "43.0.1",
     "eslint-plugin-cypress": "2.15.1",
@@ -32,15 +37,11 @@
     "eslint-plugin-prettier": "5.1.3",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-vue": "9.23.0",
-    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
-    "@rushstack/eslint-patch": "1.7.2",
-    "@vue/eslint-config-prettier": "9.0.0",
-    "@vue/eslint-config-typescript": "13.0.0",
+    "npm-run-all2": "6.1.2",
     "prettier": "3.2.5",
     "tailwindcss": "3.4.1",
     "typescript": "5.4.2",
     "typescript-eslint": "7.2.0",
-    "vue-tsc": "2.0.6",
-    "npm-run-all2": "6.1.2"
+    "vue-tsc": "2.0.6"
   }
 }
