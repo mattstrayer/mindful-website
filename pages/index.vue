@@ -16,7 +16,6 @@ definePageMeta({
   <div>
     <Header />
     <div class="container flex flex-col justify-center max-w-[600px] mx-auto">
-      <h1 class="">coming soon</h1>
       <div class="mockup-browser border bg-base-300">
         <div class="mockup-browser-toolbar">
           <div class="input" />
