@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   colorMode: {
     dataValue: "theme",
     preference: "sunset",
-    classSuffix: ""
-  }
-})
+    classSuffix: "",
+  },
+});

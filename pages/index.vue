@@ -3,13 +3,13 @@ useHead({
   title: "mindful",
   htmlAttrs: {
     lang: "en",
-    dir: "ltr"
-  }
-})
+    dir: "ltr",
+  },
+});
 
 definePageMeta({
-  colorMode: "sunset"
-})
+  colorMode: "sunset",
+});
 </script>
 
 <template>
