@@ -7,4 +7,9 @@ export default defineNuxtConfig({
     preference: "sunset",
     classSuffix: "",
   },
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false,
+    },
+  },
 });
