@@ -10,6 +10,23 @@ useHead({
 definePageMeta({
   colorMode: "sunset",
 });
+
+defineOgImageComponent("NuxtSeo", {
+  title: "mindful",
+  subtitle: "stay focused on your daily goals ",
+  colorMode: "dark",
+  theme: "#7582ff",
+});
+
+useSeoMeta({
+  title: "mindful - stay focused",
+  ogTitle: "mindful - stay focused",
+  description:
+    "Browser Extension that helps you stay focused on your daily goals.",
+  ogDescription:
+    "Browser Extension that helps you stay focused on your daily goals.",
+  twitterCard: "summary_large_image",
+});
 </script>
 
 <template>
