@@ -9,10 +9,6 @@ useHead({
   },
 });
 
-definePageMeta({
-  colorMode: "sunset",
-});
-
 defineOgImageComponent("NuxtSeo", {
   title: "mindful",
   subtitle: "stay focused on your daily goals ",
@@ -23,10 +19,8 @@ defineOgImageComponent("NuxtSeo", {
 useSeoMeta({
   title: "mindful - stay focused",
   ogTitle: "mindful - stay focused",
-  description:
-    "Browser Extension that helps you stay focused on your daily goals.",
-  ogDescription:
-    "Browser Extension that helps you stay focused on your daily goals.",
+  description: "Browser Extension that helps you stay focused on your daily goals.",
+  ogDescription: "Browser Extension that helps you stay focused on your daily goals.",
   twitterCard: "summary_large_image",
 });
 </script>
@@ -48,8 +42,9 @@ useSeoMeta({
             alt="mindful-extension-preview" />
         </div>
       </div>
+      <div class="waves"></div>
     </div>
-    <SectionContainer>
+    <SectionContainer class="radial-gradient">
       <h1 class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug p-12">
       stay focused on your goals
     </h1>
@@ -98,3 +93,28 @@ useSeoMeta({
     <Footer />
   </div>
 </template>
+
+<style lang="css">
+
+.radial-gradient {
+  background-image: radial-gradient(circle, rgba(231,158,111,1) 0%, rgba(118,91,210,1) 100%);
+}
+
+.test {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+</style>
