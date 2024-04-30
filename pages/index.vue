@@ -30,7 +30,7 @@ useSeoMeta({
     <Header />
     <div class="container flex flex-col justify-center max-w-[600px] mx-auto h-screen">
       <h1 class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug p-12">
-        coming soon
+        stay focused on your goals
       </h1>
       <div class="mockup-browser border bg-base-300">
         <div class="mockup-browser-toolbar">
@@ -94,7 +94,11 @@ useSeoMeta({
   </div>
 </template>
 
-<style lang="css">
+<style lang="postcss">
+
+:root {
+   font-family: 'Figtree', sans-serif;
+}
 
 .radial-gradient {
   background-image: radial-gradient(circle, rgba(231,158,111,1) 0%, rgba(118,91,210,1) 100%);
