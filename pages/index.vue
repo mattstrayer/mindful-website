@@ -30,7 +30,7 @@ useSeoMeta({
     <Header />
     <div class="container flex flex-col justify-center max-w-[600px] mx-auto h-screen">
       <h1 class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug p-12">
-        stay focused on your goals
+        stay <span class="text-transparent bg-clip-text inline-block bg-gradient-to-bl from-orange-500 to-yellow-300">focused</span> on your goals
       </h1>
       <div class="mockup-browser border bg-base-300">
         <div class="mockup-browser-toolbar">
@@ -42,7 +42,6 @@ useSeoMeta({
             alt="mindful-extension-preview" />
         </div>
       </div>
-      <div class="waves"></div>
     </div>
     <SectionContainer class="radial-gradient">
       <h1 class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug p-12">
@@ -53,10 +52,19 @@ useSeoMeta({
 
     <SectionContainer>
       <h1 class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug p-12">
+        stay present
+      </h1>
+      <p class="text-zinc-100 text-center text-4xl">mindful intentionally resets your tasks each day to give you a clean slate for your day ahead.</p>
+    </SectionContainer>
+
+    <SectionContainer>
+      <h1 class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug p-12">
         new tab, same goals
       </h1>
       <p class="text-zinc-100 text-center text-4xl">mindful appears in every new tab you open. There to remind you of what you want to get done today</p>
     </SectionContainer>
+
+
 
     <SectionContainer>
       <h1 class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug p-12">
@@ -98,6 +106,10 @@ useSeoMeta({
 
 :root {
    font-family: 'Figtree', sans-serif;
+}
+
+.radial-hero {
+  background-image: radial-gradient(circle, oklch(var(--s)) 0%, transparent 99%)
 }
 
 .radial-gradient {
