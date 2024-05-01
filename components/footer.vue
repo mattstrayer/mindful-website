@@ -7,11 +7,29 @@
       <NuxtLink class="link link-hover"to="/support" >support</NuxtLink>
     </nav>
 
+
     <aside>
       <p>
         copyright © {{ new Date().getFullYear() }} | all rights reserved | matt
         strayer
       </p>
     </aside>
+
+
   </footer>
 </template>
+
+
+<script setup lang="ts">
+// 100% privacy-first analytics
+
+useHead({
+  noscript: [
+    {
+      innerHTML:
+        '<img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" />',
+    },
+  ],
+  script: [{ src: "https://scripts.simpleanalyticscdn.com/latest.js", async: true, defer: true }],
+});
+</script>
