@@ -5,16 +5,8 @@
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
-        <li><a>get started</a></li>
-        <!-- <li>
-          <details>
-            <summary>Parent</summary>
-            <ul class="p-2 bg-base-100 rounded-t-none">
-              <li><a>Link 1</a></li>
-              <li><a>Link 2</a></li>
-            </ul>
-          </details>
-        </li> -->
+        <li><NuxtLink to="/download">download</NuxtLink></li>
+
       </ul>
     </div>
   </div>

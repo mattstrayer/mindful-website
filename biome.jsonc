@@ -10,8 +10,8 @@
     "lineWidth": 100,
     "attributePosition": "auto"
   },
-  "organizeImports": { "enabled": true },
-  "linter": { "enabled": true, "rules": { "recommended": true } },
+  "organizeImports": { "enabled": false },
+  "linter": { "enabled": false },
   "javascript": {
     "formatter": {
       "jsxQuoteStyle": "double",
