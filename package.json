@@ -24,7 +24,7 @@
     "@biomejs/biome": "1.7.3",
     "@nuxtjs/color-mode": "^3.4.1",
     "npm-run-all2": "6.1.2",
-    "vue-tsc": "2.0.17",
+    "vue-tsc": "2.0.19",
     "postcss": "8.4.38",
     "tailwindcss": "3.4.3",
     "typescript": "5.4.5"
