@@ -9,7 +9,7 @@
           <NuxtLink
             to="https://chromewebstore.google.com/detail/mindful-stay-focused-on-y/cfkdcideecefncbglkhneoflfnmhoicc"
             target="_blank">
-            download</NuxtLink>
+            add to chrome</NuxtLink>
         </li>
 
       </ul>
