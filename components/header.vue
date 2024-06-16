@@ -5,7 +5,12 @@
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
-        <li><NuxtLink to="/download">download</NuxtLink></li>
+        <li>
+          <NuxtLink
+            to="https://chromewebstore.google.com/detail/mindful-stay-focused-on-y/cfkdcideecefncbglkhneoflfnmhoicc"
+            target="_blank">
+            download</NuxtLink>
+        </li>
 
       </ul>
     </div>

@@ -27,13 +27,19 @@ useSeoMeta({
   <div>
     <Header />
     <div class="container flex flex-col justify-center max-w-[600px] mx-auto h-screen">
+
       <h1 class="text-zinc-100 text-6xl text-center font-extrabold mb-4 line leading-snug p-12">
         download
       </h1>
+
+      <a href="https://chromewebstore.google.com/detail/mindful-stay-focused-on-y/cfkdcideecefncbglkhneoflfnmhoicc"
+        target="_blank"><img src="/img/chrome_webstore.svg" alt="Chrome Webstore" /></a>
+
     </div>
 
     <Footer />
   </div>
 </template>
 
-<style lang="css"></style>
+<style lang="css">
+</style>
