@@ -38,7 +38,7 @@
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-promise": "6.4.0",
     "eslint-plugin-vue": "9.27.0",
-    "typescript-eslint": "7.15.0",
+    "typescript-eslint": "7.16.0",
     "@biomejs/biome": "1.8.3",
     "npm-run-all2": "6.2.2",
     "vue-tsc": "2.0.26",
