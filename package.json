@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "@nuxt/image": "1.7.0",
-    "@nuxtjs/seo": "^2.0.0-rc.11",
-    "@nuxtjs/tailwindcss": "6.12.0",
+    "@nuxtjs/seo": "^2.0.0-rc.12",
+    "@nuxtjs/tailwindcss": "6.12.1",
     "@tailwindcss/typography": "0.5.13",
     "daisyui": "^4.12.10",
     "nuxt": "^3.12.3",
