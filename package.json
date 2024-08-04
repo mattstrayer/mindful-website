@@ -23,7 +23,7 @@
     "daisyui": "^4.12.10",
     "nuxt": "^3.12.4",
     "vue": "^3.4.35",
-    "vue-router": "^4.4.0"
+    "vue-router": "^4.4.2"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.4.2",
