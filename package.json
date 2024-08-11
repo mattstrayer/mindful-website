@@ -17,13 +17,13 @@
   },
   "dependencies": {
     "@nuxt/image": "1.7.0",
-    "@nuxtjs/seo": "^2.0.0-rc.16",
+    "@nuxtjs/seo": "^2.0.0-rc.18",
     "@nuxtjs/tailwindcss": "6.12.1",
-    "@tailwindcss/typography": "0.5.13",
+    "@tailwindcss/typography": "0.5.14",
     "daisyui": "^4.12.10",
     "nuxt": "^3.12.4",
-    "vue": "^3.4.35",
-    "vue-router": "^4.4.2"
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.4.2",
@@ -42,8 +42,8 @@
     "@biomejs/biome": "1.8.3",
     "npm-run-all2": "6.2.2",
     "vue-tsc": "2.0.29",
-    "postcss": "8.4.40",
-    "tailwindcss": "3.4.7",
+    "postcss": "8.4.41",
+    "tailwindcss": "3.4.9",
     "typescript": "5.5.4"
   }
 }
