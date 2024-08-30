@@ -16,7 +16,7 @@
     "clean": "rm -rf node_modules package-lock.json"
   },
   "dependencies": {
-    "@nuxt/image": "1.7.0",
+    "@nuxt/image": "1.7.1",
     "@nuxtjs/seo": "^2.0.0-rc.19",
     "@nuxtjs/tailwindcss": "6.12.1",
     "@tailwindcss/typography": "0.5.14",
