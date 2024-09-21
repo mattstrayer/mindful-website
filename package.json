@@ -29,13 +29,13 @@
     "@nuxtjs/color-mode": "^3.5.1",
     "@rushstack/eslint-patch": "1.10.4",
     "@vue/eslint-config-typescript": "13.0.0",
-    "oxlint": "0.9.5",
-    "eslint-plugin-oxlint": "^0.9.5",
+    "oxlint": "0.9.6",
+    "eslint-plugin-oxlint": "^0.9.6",
     "eslint": "8.57.1",
     "eslint-config-love": "66.0.0",
     "eslint-plugin-cypress": "3.5.0",
     "eslint-plugin-import": "2.30.0",
-    "eslint-plugin-n": "17.10.2",
+    "eslint-plugin-n": "17.10.3",
     "eslint-plugin-promise": "7.1.0",
     "eslint-plugin-vue": "9.28.0",
     "typescript-eslint": "8.5.0",
@@ -43,7 +43,7 @@
     "npm-run-all2": "6.2.3",
     "vue-tsc": "2.1.6",
     "postcss": "8.4.47",
-    "tailwindcss": "3.4.11",
+    "tailwindcss": "3.4.12",
     "typescript": "5.6.2"
   }
 }
