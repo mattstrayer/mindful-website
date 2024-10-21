@@ -18,7 +18,7 @@
   "dependencies": {
     "@nuxt/image": "1.8.1",
     "@nuxtjs/seo": "^2.0.0-rc.23",
-    "@nuxtjs/tailwindcss": "6.12.1",
+    "@nuxtjs/tailwindcss": "6.12.2",
     "@tailwindcss/typography": "0.5.15",
     "daisyui": "^4.12.13",
     "nuxt": "^3.13.2",
@@ -40,7 +40,7 @@
     "eslint-plugin-vue": "9.28.0",
     "typescript-eslint": "8.5.0",
     "@biomejs/biome": "1.8.3",
-    "npm-run-all2": "6.2.3",
+    "npm-run-all2": "6.2.4",
     "vue-tsc": "2.1.6",
     "postcss": "8.4.47",
     "tailwindcss": "3.4.14",
