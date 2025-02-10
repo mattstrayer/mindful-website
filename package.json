@@ -30,7 +30,7 @@
     "@rushstack/eslint-patch": "1.10.5",
     "@vue/eslint-config-typescript": "13.0.0",
     "oxlint": "0.15.10",
-    "eslint-plugin-oxlint": "^0.15.9",
+    "eslint-plugin-oxlint": "^0.15.10",
     "eslint": "8.57.1",
     "eslint-config-love": "83.0.0",
     "eslint-plugin-cypress": "3.6.0",
